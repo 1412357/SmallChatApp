@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <textarea rows="" cols="" id="chatbox" readonly></textarea>
+        <div id="infor">
+            <label for="myname">Name: </label>
+            <input type="text" name="name" id="myname" placeholder="Type your name" value="Nguyen">
+            
+            <label for="myfriend">Your Friend: </label>
+            <input type="text" name="name" id="myfriend" placeholder="Type your friend name" value="King">
+        </div>
+        <input type="text" name="content" id="content">
+        <input type="button" name="connect" value="connect" id="connect" onclick="connect()">
+        <input type="button" name="send" value="send" id="send" onclick="sendMessage()">
+        <script src="./javascript.js"></script>
+    </body>
+</html>

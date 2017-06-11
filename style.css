@@ -1,0 +1,32 @@
+#chatbox {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+input[name="connect"] {
+    display: inline-block;
+    margin-left: 522px;
+    margin-top: 5px;
+}
+
+input[name="send"] {
+    margin-left: 196px;
+}
+
+input[name="content"] {
+    display: block;
+    width: 300px;
+    line-height: 30px;
+    margin: 20px auto 0px;
+}
+
+#infor {
+    margin: 10px 0px 0px 522px;
+}
+
+#infor * {
+    display: block;
+    margin-top: 10px;
+}
